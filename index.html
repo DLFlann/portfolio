@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dennis Flannigan Portfolio</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <header class="row">
+            <div class="col-md-6 ">
+                <img class="img-responsive logo" src="images/blue-logo.png" alt="Udacity Logo">
+            </div>
+            <div class="col-md-6 text-right text-uppercase greeting">
+                <h1 class="name">Dennis Flannigan</h1>
+                <h2 class="title">Front-end Ninja</h2>
+            </div>
+        </header>
+        <div class="row">
+            <div class="col-md-12 rule">
+              <hr>
+            </div>
+        </div>
+        <section class="row">
+            <div class="col-md-12">
+                <img class="img-responsive hero" src="images/fullstack-development.png" alt="Full Stack Development Banner">
+            </div>
+        </section>
+        <section class="row">
+            <div class="col-md-12">
+                <h3 class="featured-work">Featured Work</h3>
+            </div>
+        </section>
+        <main class="row">
+            <article class="col-md-4 text-center fresh-tomatoes">
+                <figure>
+                    <picture>
+                        <img class="img-responsive screen-shot" src="images/fresh-tomatoes.png" alt="Favorite Movie Project Screenshot" data-toggle="modal" data-target="#movies">
+                    </picture>
+                    <figcaption class="text-center text-uppercase">Movies</figcaption>
+                </figure>
+                <a href="#">https://github.com/dlflann/Movies/</a>
+            </article>
+            <article class="col-md-4 text-center python">
+                <figure>
+                    <picture>
+                        <img class="img-responsive screen-shot" src="images/code-on-ide.jpg" alt="Python Project Screenshot" data-toggle="modal" data-target="#python">
+                    </picture>
+                    <figcaption class="text-center text-uppercase">Python</figcaption>
+                </figure>
+                <a href="#">https://github.com/dlflann/Python/</a>
+            </article>
+            <article class="col-md-4 text-center developer">
+                <figure>
+                    <picture>
+                        <img class="img-responsive screen-shot" src="images/developer.png" alt="Developer Project Screenshot" data-toggle="modal" data-target="#developer">
+                    </picture>
+                    <figcaption class="text-center text-uppercase">Developing</figcaption>
+                </figure>
+                <a href="#">https://github.com/dlflann/Developing/</a>
+            </article>
+        </main>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="movies" tabindex="-1" role="dialog" aria-labelledby="movieModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="movieModalLabel">Movies</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/fresh-tomatoes.png" alt="Favorite Movie Project Screenshot">
+                    <p>This was my first project on Udacity.  I learned the basics of Python, including functions, conditionals, classes, and inheritence.<p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="python" tabindex="-1" role="dialog" aria-labelledby="pythonModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="pythonModalLabel">Python</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/code-on-ide.jpg" alt="Python Project Screenshot">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="developer" tabindex="-1" role="dialog" aria-labelledby="devModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="devModalLabel">Developer</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/developer.png" alt="Developer Project Screenshot">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

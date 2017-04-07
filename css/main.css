@@ -1,0 +1,166 @@
+/* General */
+* {
+    font-family: "Lato", sans-serif;
+}
+
+.container {
+    margin: 3% auto;
+}
+
+/* Header */
+header {
+    display: flex;
+}
+
+.logo {
+    margin-top: 20px;
+    height: 71px;
+    width: 14.43%;
+    min-width: 71px;
+}
+
+.name {
+    font-weight: 300;
+    font-size: 20px;
+    color: #2d3c49;
+}
+
+.title {
+    font-size: 16px;
+}
+
+hr {
+    border: 2px solid #949ead;
+    margin-bottom: 30px;
+}
+
+/* Content */
+.hero {
+    margin-bottom: 5px;
+}
+
+.featured-work {
+    color: #7d97ad;
+    font-size: 20px;
+}
+
+.fresh-tomatoes,
+.python,
+.developer {
+    margin-bottom: 1.5em;
+}
+
+a {
+    padding: 1.5em;
+    text-decoration: none;
+    color: #2d3c49;
+}
+
+@media screen and (min-width: 324px) {
+    .name,
+    .featured-work {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 361px) {
+    .name,
+    .featured-work {
+        font-size: 27px;
+    }
+}
+
+@media screen and (min-width: 390px) {
+    .name {
+        font-size: 30px;
+    }
+
+    .featured-work {
+        font-size: 33px;
+    }
+}
+
+@media screen and (min-width: 417px) {
+    .name {
+        font-size: 36px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 992px) {
+    .name {
+        font-size: 42px;
+    }
+
+    /* Content */
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .fresh-tomatoes,
+    .python,
+    .developer {
+        width: 50%;
+    }
+
+    .developer {
+        margin: auto;
+    }
+
+    a {
+        padding-left: 0;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .title {
+        display: block;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 620px) {
+    .title {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 690px) {
+    .name {
+        font-size: 47px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    /* General */
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .greeting {
+        width: 85.57%;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    /* Header */
+    .name {
+        font-size: 47px;
+    }
+
+    .title {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    /* Content */
+    .featured-work {
+        font-size: 33px;
+    }
+
+    figcaption {
+        font-size: 35px;
+    }
+}
