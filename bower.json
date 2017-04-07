@@ -1,0 +1,21 @@
+{
+  "name": "Portfolio Site Final",
+  "authors": [
+    "Dennis Flannigan <DLFlann@gmail.com>"
+  ],
+  "description": "My Full Stack Portfolio",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}
