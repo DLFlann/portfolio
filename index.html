@@ -37,24 +37,15 @@
                 <h3 class="featured-work">Featured Work</h3>
             </div>
         </section>
-        <main class="row">
-            <article class="col-md-4 text-center fresh-tomatoes">
+        <main class="row first-row">
+            <article class="col-md-4 text-center taco-tracker">
                 <figure>
                     <picture>
-                        <img class="img-responsive screen-shot" src="images/fresh-tomatoes.png" alt="Favorite Movie Project Screenshot" data-toggle="modal" data-target="#movies">
+                        <img class="img-responsive screen-shot" src="images/taco-tracker.png" alt="Taco Tracker Project Screenshot" data-toggle="modal" data-target="#taco-tracker">
                     </picture>
-                    <figcaption class="text-center text-uppercase">Movies</figcaption>
+                    <figcaption class="text-center text-uppercase">Taco Tracker</figcaption>
                 </figure>
-                <a href="#">https://github.com/DLFlann/Movies/</a>
-            </article>
-            <article class="col-md-4 text-center brain-drain">
-                <figure>
-                    <picture>
-                        <img class="img-responsive screen-shot" src="images/brain-drain.png" alt="Brain Drain Project Screenshot" data-toggle="modal" data-target="#brain-drain">
-                    </picture>
-                    <figcaption class="text-center text-uppercase">Brain Drain</figcaption>
-                </figure>
-                <a href="#">https://github.com/DLFlann/BrainDrain/</a>
+                <a href="https://github.com/DLFlann/TacoTracker">https://github.com/DLFlann/TacoTracker</a>
             </article>
             <article class="col-md-4 text-center for-sale">
                 <figure>
@@ -63,20 +54,57 @@
                     </picture>
                     <figcaption class="text-center text-uppercase">ForSale</figcaption>
                 </figure>
-                <a href="#">https://github.com/DLFlann/ForSale/</a>
+                <a href="https://github.com/DLFlann/ForSale">https://github.com/DLFlann/ForSale</a>
+            </article>
+            <article class="col-md-4 text-center brain-drain">
+                <figure>
+                    <picture>
+                        <img class="img-responsive screen-shot" src="images/brain-drain.png" alt="Brain Drain Project Screenshot" data-toggle="modal" data-target="#brain-drain">
+                    </picture>
+                    <figcaption class="text-center text-uppercase">Brain Drain</figcaption>
+                </figure>
+                <a href="https://github.com/DLFlann/BrainDrain">https://github.com/DLFlann/BrainDrain</a>
+            </article>
+        </main>
+        <main class="row">
+            <article class="col-md-4 text-center fresh-tomatoes">
+                <figure>
+                    <picture>
+                        <img class="img-responsive screen-shot" src="images/fresh-tomatoes.png" alt="Favorite Movie Project Screenshot" data-toggle="modal" data-target="#movies">
+                    </picture>
+                    <figcaption class="text-center text-uppercase">Movies</figcaption>
+                </figure>
+                <a href="https://github.com/DLFlann/Movie-Trailer">https://github.com/DLFlann/Movie-Trailer</a>
             </article>
         </main>
     </div>
     <!-- Modal -->
-    <div class="modal fade" id="movies" tabindex="-1" role="dialog" aria-labelledby="movieModalLabel" aria-hidden="true">
+    <div class="modal fade" id="taco-tracker" tabindex="-1" role="dialog" aria-labelledby="tacoTrackerModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="movieModalLabel">Movies</h4>
+                    <h4 class="modal-title" id="tacoTrackerModalLabel">Taco Tracker</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="images/fresh-tomatoes.png" alt="Favorite Movie Project Screenshot">
-                    <p>This was my first project as a part of the Udacity Full Stack Web Developer Nanodegree.  I learned the basics of Python, including functions, conditionals, classes, and inheritence. And then used these concepts to create a simple movie listing page where users can select the poster art of a film to watch a trailer via YouTube.<p>
+                    <img class="img-responsive" src="images/taco-tracker.png" alt="Taco Tracker Project Screenshot">
+                    Taco trackr is a single-page application utilizing KnockoutJS and asynchronous RESTful API calls to both Google and Foursquare. This interactive map displays the top 20 breakfast taco restaurants in Austin, TX, along with information on each establishment such as operating hours, address, Foursquare user photos, and tips.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="forsale" tabindex="-1" role="dialog" aria-labelledby="forsaleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="forsaleModalLabel">ForSale</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/forsale.png" alt="For Sale Project Screenshot">
+                    This project is essentially a basic Craigslist application, allowing users to post items for sale in a number of categories and arrange to buy from others. It implements basic CRUD database functionality thorugh an object relational mapper and a PostgreSQL database. Additionally, it implements 3rd party user authorization using Facebook and Goolge OAuth 2.0 standards.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -102,15 +130,15 @@
         </div>
     </div>
     <!-- Modal -->
-    <div class="modal fade" id="forsale" tabindex="-1" role="dialog" aria-labelledby="forsaleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="movies" tabindex="-1" role="dialog" aria-labelledby="movieModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="forsaleModalLabel">ForSale</h4>
+                    <h4 class="modal-title" id="movieModalLabel">Movies</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="images/forsale.png" alt="For Sale Project Screenshot">
-                    This project is essentially a basic Craigslist application, allowing users to post items for sale in a number of categories and arrange to buy from others. It implements basic CRUD database functionality thorugh an object relational mapper and a PostgreSQL database. Additionally, it implements 3rd party user authorization using Facebook and Goolge OAuth 2.0 standards.
+                    <img class="img-responsive" src="images/fresh-tomatoes.png" alt="Favorite Movie Project Screenshot">
+                    <p>This was my first project as a part of the Udacity Full Stack Web Developer Nanodegree.  I learned the basics of Python, including functions, conditionals, classes, and inheritence. And then used these concepts to create a simple movie listing page where users can select the poster art of a film to watch a trailer via YouTube.<p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

@@ -92,21 +92,6 @@ a {
     }
 
     /* Content */
-    main {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .fresh-tomatoes,
-    .brain-drain,
-    .developer {
-        width: 50%;
-    }
-
-    .developer {
-        margin: auto;
-    }
-
     a {
         padding-left: 0;
     }
@@ -142,6 +127,10 @@ a {
     .greeting {
         width: 85.57%;
     }
+
+    .col-md-4 {
+        margin-bottom: 10%;
+    }
 }
 
 @media screen and (min-width: 990px) {
@@ -158,6 +147,10 @@ a {
     /* Content */
     .featured-work {
         font-size: 33px;
+    }
+
+    .first-row {
+        margin-bottom: 7%;
     }
 
     figcaption {
