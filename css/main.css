@@ -131,6 +131,10 @@ a {
     .col-md-4 {
         margin-bottom: 10%;
     }
+
+    .screen-shot {
+        margin: auto;
+    }
 }
 
 @media screen and (min-width: 990px) {
